@@ -194,6 +194,10 @@ footer ul img {
   margin: 0;
   padding: 0;
 }
+.catering-container p {
+  text-align: center;
+  padding: 0px 100px 0px 100px;
+}
 
 .review-container {
   display: flex;
@@ -272,13 +276,22 @@ footer ul img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 20px 0px;
+  padding: 20px 50px;
+}
+
+.backstory-story {
+  width: 600px;
+}
+
+.backstory-img {
+  width: 500px;
+  height: auto;
 }
 
 .contact-social-container {
   display: flex;
   justify-content: space-around;
-  background-color: peachpuff;
+  background-color: #eadbc8;
   padding: 20px 0px;
 }
 
@@ -288,32 +301,64 @@ footer ul img {
   padding: 20px 0px;
 }
 
-.placeholder-square {
+.contact-square {
   display: inline-block;
   width: 500px;
   height: min-content;
-  background-color: coral;
-  align-content: center;
 }
 
-.placeholder-square ul {
+.phone-text {
+  font-size: 2rem;
+}
+
+.social-square {
+  width: 500px;
+  margin-top: 10%;
+}
+.social-square ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   list-style-type: none;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+  padding: 0px 50px 0px 50px;
 }
-.placeholder-square ul a {
+.social-square ul a {
   margin: 5px;
   text-decoration: none;
 }
-.placeholder-square ul img {
-  width: 1.5rem;
-}
 
 .ico-sizing {
-  width: 15px;
+  width: 75px;
+}
+
+.location-square {
+  display: flex;
+  width: 500px;
+  height: min-content;
+  align-items: center;
+  justify-content: center;
+}
+.location-square iframe {
+  width: 95%;
+}
+
+.hours-square {
+  display: flex;
+  width: 500px;
+  height: min-content;
+}
+
+.hours-table {
+  font-size: 1.5rem;
+  width: 100%;
+  text-align: left;
+  padding: 5px;
+}
+.hours-table tr,
+.hours-table th,
+.hours-table td {
+  padding: 2px;
 }
 
 @media (max-width: 1295px) {
@@ -366,8 +411,32 @@ footer ul img {
   .menu-item {
     margin: 10px 0px 70px 0px;
   }
-}
-.contact-social-container, .location-hours-container, .backstory-container {
-  display: flex;
-  flex-flow: row wrap;
+  .contact-social-container,
+  .location-hours-container,
+  .backstory-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .contact-square {
+    width: 300px;
+  }
+  .social-square {
+    width: 300px;
+  }
+  .social-square ul {
+    padding: 0px;
+  }
+  .location-square {
+    width: 300px;
+  }
+  .hours-square {
+    width: 300px;
+  }
+  .backstory-img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+  }
 }/*# sourceMappingURL=main.css.map */
