@@ -13,10 +13,6 @@ body {
   font-size: 16px;
 }
 // -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
 // Navbar---------------------------------
 nav {
   background-color: colors.$bbb-pink;
@@ -94,10 +90,7 @@ footer {
   filter: invert(99%) sepia(0%) saturate(7499%) hue-rotate(191deg)
     brightness(112%) contrast(99%);
 }
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
+
 // -------------------------------
 //Home Screen
 //1) Welcome-Container------------ (Welcome Video)
@@ -248,11 +241,6 @@ footer {
     border-radius: inherit;
   }
 }
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
 //Menu/Shop-----------------------
 
 .menu-header {
@@ -289,14 +277,7 @@ footer {
   }
 }
 
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
-// -------------------------------
 //Contact------------------------
-
-
 
 .backstory-container {
   display: flex;
@@ -327,7 +308,6 @@ footer {
   display: inline-block;
   width: 500px;
   height: min-content;
-
 }
 .phone-text {
   font-size: 2rem;
@@ -443,47 +423,38 @@ footer {
   }
 
   //Contact Page
-.contact-social-container,
-.location-hours-container,
-.backstory-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.contact-square {
-  width: 300px;
-}
-
-.social-square {
-  width: 300px;
-
-  ul {
-    padding: 0px;
+  .contact-social-container,
+  .location-hours-container,
+  .backstory-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
   }
-}
 
-.location-square {
-  width: 300px;
+  .contact-square {
+    width: 300px;
+  }
 
-}
+  .social-square {
+    width: 300px;
 
-.hours-square {
-  width: 300px;
-}
+    ul {
+      padding: 0px;
+    }
+  }
 
-.backstory-img {
-  display: block;
-  margin: 0 auto;
-  width: 90%;
-  max-width: 500px;
-}
-}
+  .location-square {
+    width: 300px;
+  }
 
+  .hours-square {
+    width: 300px;
+  }
 
-
-
-// Large Screen
-@media (min-width: 1024px) {
-  // nada
+  .backstory-img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+  }
 }

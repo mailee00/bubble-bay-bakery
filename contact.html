@@ -5,12 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu</title>
     <link rel="stylesheet" type="text/css" href="dist/css/main.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
   </head>
   <body>
     <!-- Header and Navbar -->
     <header>
       <nav>
-        <h1 class="navtitle"><img src="assets/images/svg/bbb_logo_white.svg" class="navlogo"></h1>
+        <h1 class="navtitle">
+          <img src="assets/images/svg/bbb_logo_white.svg" class="navlogo" />
+        </h1>
         <ul class="menu">
           <li><a href="index.html">Home</a></li>
           <li><a href="menu.html">Menu</a></li>
@@ -27,83 +47,103 @@
     </header>
     <!-- Content -->
     <!-- Who We Are -->
-    <div class="backstory-container">
-      <div class="backstory-story">
-        <h2>Who We Are</h2>
-        <p>
-          We're a small team of bakers combining our two passions-- the sea and desserts! You can always reach out to us through our social media pages, email, or phone! We'd love to answer any questions or help you with your catering needs.
-        </p>
-      </div>
-      <div ><img src="assets/images/macaron_cake.jpg" class="backstory-img" /></div>
-    </div>
-    <!-- Contact Us/Follow Us -->
-    <div class="contact-social-container">
-      <div>
-        <h3>Contact Us</h3>
-        <div class="contact-square"><p class="phone-text">(000) 000-0000</p><p class="phone-text">team@bbb.com</p></div>
-      </div>
-      <div>
-        <h3>Follow Us</h3>
-        <div class="social-square">
-          <ul>
-            <li>
-              <a href="#"
-                ><img src="assets/images/svg/x-ico.svg" class="ico-filter-white ico-sizing"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="assets/images/svg/ig-ico.svg" class="ico-filter-white ico-sizing"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="assets/images/svg/f-ico.svg" class="ico-filter-white ico-sizing"
-              /></a>
-            </li>
-          </ul>
+    <main>
+      <article class="backstory-container">
+        <div class="backstory-story">
+          <h2>Who We Are</h2>
+          <p>
+            We're a small team of bakers combining our two passions-- the sea
+            and desserts! You can always reach out to us through our social
+            media pages, email, or phone! We'd love to answer any questions or
+            help you with your catering needs.
+          </p>
         </div>
-      </div>
-    </div>
-    <!-- Location -->
-    <div class="location-hours-container">
-      <div>
-        <h3>Location</h3>
-        <div class="location-square">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55579.65653328912!2d-81.16776589697596!3d29.465936386370885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e694ccee43027d%3A0xa7329012323b3500!2sFlagler%20Beach%2C%20FL%2032136!5e0!3m2!1sen!2sus!4v1720495158620!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div>
+          <img src="assets/images/macaron_cake.jpg" class="backstory-img" />
         </div>
-      </div>
-      <!-- Hours -->
-      <div>
-        <h3>Hours</h3>
-        <div class="hours-square"><table class="hours-table">
-          <tr>
-            <th>Day</th>
-            <th>Time</th>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>8am-8pm</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>8am-8pm</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>8am-8pm</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>8am-8pm</td>
-          </tr>
-          <tr>
-            <td>Sunday</td>
-            <td>8am-8pm</td>
-          </tr>
-        </table></div>
-      </div>
-    </div>
+      </article>
+      <!-- Contact Us/Follow Us -->
+      <section class="contact-social-container">
+        <div>
+          <h3>Contact Us</h3>
+          <div class="contact-square">
+            <p class="phone-text">(000) 000-0000</p>
+            <p class="phone-text">team@bbb.com</p>
+          </div>
+        </div>
+        <div>
+          <h3>Follow Us</h3>
+          <div class="social-square">
+            <ul>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/svg/x-ico.svg" class="ico-sizing"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/svg/ig-ico.svg" class="ico-sizing"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img src="assets/images/svg/f-ico.svg" class="ico-sizing"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Location -->
+      <section class="location-hours-container">
+        <div>
+          <h3>Location</h3>
+          <div class="location-square">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55579.65653328912!2d-81.16776589697596!3d29.465936386370885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e694ccee43027d%3A0xa7329012323b3500!2sFlagler%20Beach%2C%20FL%2032136!5e0!3m2!1sen!2sus!4v1720495158620!5m2!1sen!2sus"
+              width="400"
+              height="300"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <!-- Hours -->
+        <div>
+          <h3>Hours</h3>
+          <div class="hours-square">
+            <table class="hours-table">
+              <tr>
+                <th>Day</th>
+                <th>Time</th>
+              </tr>
+              <tr>
+                <td>Wednesday</td>
+                <td>8am-8pm</td>
+              </tr>
+              <tr>
+                <td>Thursday</td>
+                <td>8am-8pm</td>
+              </tr>
+              <tr>
+                <td>Friday</td>
+                <td>8am-8pm</td>
+              </tr>
+              <tr>
+                <td>Saturday</td>
+                <td>8am-8pm</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>8am-8pm</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
       <ul>
